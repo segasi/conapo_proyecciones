@@ -22,7 +22,7 @@ bd <- mget(nom_df)
 bd <- bind_rows(bd, .id="nom_df")
 
 # Limpiar y transformar la base de datos ----
-bd %>% 
+bd <- bd %>% 
   rename(cve_mpo = "Clave Municipio", # Renombrar varibles
          mpo = "Municipio", 
          sexo = "Sexo", 
