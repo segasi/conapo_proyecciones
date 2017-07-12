@@ -1,5 +1,5 @@
 # paquetes ----
-install.packages(c(readxl, stringr, tidyverse, zoo)) # Sólo necesario en caso de no tener los paquetes instalados
+install.packages(c("readxl", "stringr", "tidyverse", "zoo")) # Sólo necesario en caso de no tener los paquetes instalados
 library(tidyverse)
 library(stringr)
 library(readxl)
@@ -42,4 +42,4 @@ bd <- bd %>%
         )
 
 # Guardar bd transformada 
-write.csv(bd, "01_datos/proy_pob_mpo_conapo.csv")
+write.csv(bd, "03_datos_generados/proy_pob_mpo_conapo.csv")
