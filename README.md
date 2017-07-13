@@ -23,3 +23,5 @@ Estas líneas de código permiten:
 El resultado es:
 
 ![alt text](http://segasi.com.mx/github/conapo_tidyeado.png)
+
+**UPDATE** del 13/07/2017: Por cosas de la vida, hoy me contactaron amablemente desde CONAPO para decirme que la base de datos sí está en versión *tidy* dentro del repositorio de datos.gob.mx. Aquí la [liga directa](https://datos.gob.mx/busca/dataset/proyecciones-de-la-poblacion-de-mexico/resource/7e7c631a-29cc-4583-8435-48aa6a9e24d5). 
